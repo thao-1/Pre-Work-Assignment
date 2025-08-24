@@ -82,5 +82,4 @@ vercel --prod
 - Dev server errors after editing `vite.config.js`
   - Restart `npm run dev`
 
-## License
-MIT
+
