@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header-box">
+            <h1>Dog Breed Search</h1>
+            <div class="search-row">
+                <input id="searchInput" type="text" placeholder="Type a breed name..." />
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <div id="result" class="card"></div>
+
+        <h2>Ask the AI</h2>
+        <textarea id="question" placeholder="Ask about dogs....."></textarea>
+        <button id="askBtn">Ask AI</button>
+        <div id="answer"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
